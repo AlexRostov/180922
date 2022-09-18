@@ -3,10 +3,8 @@
 // где # = будет приравненно к стринговому значению "STOP" 
 // но пока не могу разобратся пробую и ищу решение
 
-// Console.Write($"Введи число М(количество чисел): ");
 // int m = Convert.ToInt32(Console.ReadLine());
 // int[] massiveNumbers = new int[m];
-
 // void InputNumbers(int m){
 // for (int i = 0; i < m; i++)
 //   {
@@ -14,8 +12,6 @@
 //     massiveNumbers[i] = Convert.ToInt32(Console.ReadLine());
 //   }
 // }
-
-
 // int Comparison(int[] massiveNumbers)
 // {
 //   int count = 0;
@@ -25,7 +21,5 @@
 //   }
 //   return count;
 // }
-
 // InputNumbers(m);
-
 // Console.WriteLine($"Введено чисел больше 0: {Comparison(massiveNumbers)} ");
