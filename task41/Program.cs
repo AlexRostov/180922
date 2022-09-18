@@ -1,26 +1,31 @@
-﻿Console.Write($"Введи число М(количество чисел): ");
-int m = Convert.ToInt32(Console.ReadLine());
-int[] massiveNumbers = new int[m];
+﻿
+// Понимаю что нужно использовать, do { } while (Console.ReadKey().KeyChar != '#');
+// где # = будет приравненно к стринговому значению "STOP" 
+// но пока не могу разобратся пробую и ищу решение
 
-void InputNumbers(int m){
-for (int i = 0; i < m; i++)
-  {
-    Console.Write($"Введи {i+1} число: ");
-    massiveNumbers[i] = Convert.ToInt32(Console.ReadLine());
-  }
-}
+// Console.Write($"Введи число М(количество чисел): ");
+// int m = Convert.ToInt32(Console.ReadLine());
+// int[] massiveNumbers = new int[m];
+
+// void InputNumbers(int m){
+// for (int i = 0; i < m; i++)
+//   {
+//     Console.Write($"Введи {i+1} число: ");
+//     massiveNumbers[i] = Convert.ToInt32(Console.ReadLine());
+//   }
+// }
 
 
-int Comparison(int[] massiveNumbers)
-{
-  int count = 0;
-  for (int i = 0; i < massiveNumbers.Length; i++)
-  {
-    if(massiveNumbers[i] > 0 ) count += 1; 
-  }
-  return count;
-}
+// int Comparison(int[] massiveNumbers)
+// {
+//   int count = 0;
+//   for (int i = 0; i < massiveNumbers.Length; i++)
+//   {
+//     if(massiveNumbers[i] > 0 ) count += 1; 
+//   }
+//   return count;
+// }
 
-InputNumbers(m);
+// InputNumbers(m);
 
-Console.WriteLine($"Введено чисел больше 0: {Comparison(massiveNumbers)} ");
+// Console.WriteLine($"Введено чисел больше 0: {Comparison(massiveNumbers)} ");
